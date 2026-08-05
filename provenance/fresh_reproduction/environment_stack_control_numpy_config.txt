@@ -1,0 +1,74 @@
+Build Dependencies:
+  blas:
+    detection method: pkgconfig
+    found: true
+    include directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/include
+    lib directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/lib
+    name: scipy-openblas
+    openblas configuration: OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY
+      Zen MAX_THREADS=64
+    pc file directory: /project/.openblas
+    version: 0.3.27
+  lapack:
+    detection method: pkgconfig
+    found: true
+    include directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/include
+    lib directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/lib
+    name: scipy-openblas
+    openblas configuration: OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY
+      Zen MAX_THREADS=64
+    pc file directory: /project/.openblas
+    version: 0.3.27
+Compilers:
+  c:
+    commands: cc
+    linker: ld.bfd
+    name: gcc
+    version: 10.2.1
+  c++:
+    commands: c++
+    linker: ld.bfd
+    name: gcc
+    version: 10.2.1
+  cython:
+    commands: cython
+    linker: cython
+    name: cython
+    version: 3.0.11
+Machine Information:
+  build:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: linux
+  host:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: linux
+Python Information:
+  path: /tmp/build-env-qcve7dge/bin/python
+  version: '3.9'
+SIMD Extensions:
+  baseline:
+  - SSE
+  - SSE2
+  - SSE3
+  found:
+  - SSSE3
+  - SSE41
+  - POPCNT
+  - SSE42
+  - AVX
+  - F16C
+  - FMA3
+  - AVX2
+  - AVX512F
+  - AVX512CD
+  - AVX512_SKX
+  - AVX512_CLX
+  - AVX512_CNL
+  - AVX512_ICL
+  not found:
+  - AVX512_KNL
+  - AVX512_KNM

@@ -1,0 +1,34 @@
+{
+  "argv": [
+    "precision_knee_drive/navsim_oracle/clean_chain_smoke.py",
+    "selection-provenance"
+  ],
+  "ended_at_utc": "2026-07-15T05:53:40.327698Z",
+  "evidence": {
+    "readme_present": true,
+    "smoke_summary_present": true,
+    "subset_of_e47_stage1_tokens": false,
+    "tokens_are_sorted": true
+  },
+  "parent_pool_path": null,
+  "parent_pool_recovered": false,
+  "parent_pool_size": null,
+  "selection_after_known_failure_context": true,
+  "selection_algorithm": "Selection rule not recoverable from local artifacts; reuse the frozen prior frozen-smoke diagnostic smoke list verbatim.",
+  "selection_scope_note": "This frozen 32-token list is suitable for mechanism reproduction, not prevalence estimation.",
+  "selection_status": "deterministic_failure_reproduction_smoke",
+  "source_csv_present_locally": false,
+  "source_csv_recorded_in_smoke_summary": "/ANON_STORAGE/CLoseLoopFramework/exp/navsim/pk_prior frozen-smoke diagnostic_gtrs_smoke32_official/2026.07.02.16.27.45/2026.07.02.16.38.48.csv",
+  "source_experiment": "prior frozen-smoke diagnostic Step C \u2014 GTRS 32-token smoke",
+  "started_at_utc": "2026-07-15T05:53:40.321061Z",
+  "token_count": 32,
+  "tokens_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/e87_community_impact/gtrs/smoke32_tokens.json",
+  "tokens_json_sha256": "51a005dfe299844f25a840b04b2d54dd27ad81429bfd35b0df421ffde31c0840",
+  "tokens_preview": [
+    "0e5653822a7a56b3",
+    "13310ca9a7715154",
+    "1a928640315c5332",
+    "226e6642fbc65bdc",
+    "2322850f71fa5c4d"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "anchor_environment_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/fresh_reproduction/environment_np2_control.json",
+  "anchor_label": "np2_control",
+  "anchor_module_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/fresh_reproduction/module_provenance_np2_control.json",
+  "conda_prefix": "/ANON_ENV",
+  "control_file": "/ANON_ENV_NP2/lib/python3.9/site-packages/control/__init__.py",
+  "control_version": "0.9.1",
+  "env": {
+    "CONDA_DEFAULT_ENV": "anon_np2_env",
+    "CONDA_PREFIX": "/ANON_ENV_NP2",
+    "LD_LIBRARY_PATH": null,
+    "MC2": null,
+    "MKL_NUM_THREADS": "1",
+    "NAVSIM_METRIC_CACHE": null,
+    "NUPLAN_MAPS_ROOT": null,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OPENSCENE_DATA_ROOT": null,
+    "PYTHONPATH": null
+  },
+  "hostname": "ANON_HOST",
+  "label": "np2",
+  "matches_official_environment_anchor": {
+    "control_version": true,
+    "numpy_version": true,
+    "opencv_version": true,
+    "scipy_version": true
+  },
+  "modules": {
+    "batch_lqr_utils": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/planning/simulation/planner/pdm_planner/simulation/batch_lqr_utils.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "80d7e1e51adcf0167bbd3c81244c1c84951794a092fdf47384632debce39ebf1",
+      "sha256_loaded": "80d7e1e51adcf0167bbd3c81244c1c84951794a092fdf47384632debce39ebf1",
+      "under_navsim_root": true
+    },
+    "navsim": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/__init__.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_loaded": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "under_navsim_root": true
+    },
+    "pdm_score": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/evaluate/pdm_score.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "066ff166f8cd9de69499f522d78b9d82207c1ce0daf36bd4d0870ad9439e4b1a",
+      "sha256_loaded": "066ff166f8cd9de69499f522d78b9d82207c1ce0daf36bd4d0870ad9439e4b1a",
+      "under_navsim_root": true
+    }
+  },
+  "navsim_root": "/ANON_NAVSIM_ROOT",
+  "np_show_config": "Build Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Zen MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.27\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.9.18/lib/python3.9/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Zen MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.27\nCompilers:\n  c:\n    commands: cc\n    linker: ld.bfd\n    name: gcc\n    version: 10.2.1\n  c++:\n    commands: c++\n    linker: ld.bfd\n    name: gcc\n    version: 10.2.1\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 3.0.11\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /tmp/build-env-qcve7dge/bin/python\n  version: '3.9'\nSIMD Extensions:\n  baseline:\n  - SSE\n  - SSE2\n  - SSE3\n  found:\n  - SSSE3\n  - SSE41\n  - POPCNT\n  - SSE42\n  - AVX\n  - F16C\n  - FMA3\n  - AVX2\n  - AVX512F\n  - AVX512CD\n  - AVX512_SKX\n  - AVX512_CLX\n  - AVX512_CNL\n  - AVX512_ICL\n  not found:\n  - AVX512_KNL\n  - AVX512_KNM\n\n",
+  "numpy_file": "/ANON_ENV_NP2/lib/python3.9/site-packages/numpy/__init__.py",
+  "numpy_version": "2.0.2",
+  "opencv_file": "/ANON_ENV_NP2/lib/python3.9/site-packages/cv2/__init__.py",
+  "opencv_version": "4.13.0",
+  "platform": "Linux-6.8.0-88-generic-x86_64-with-glibc2.35",
+  "python_executable": "/ANON_ENV/bin/python",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "scipy_file": "/ANON_ENV_NP2/lib/python3.9/site-packages/scipy/__init__.py",
+  "scipy_version": "1.13.1"
+}

@@ -1,0 +1,244 @@
+{
+  "scope": "NAVSIM navtest reactive full common-token set",
+  "token_count": 12146,
+  "agents": {
+    "stock": {
+      "actor_blind": {
+        "basis": "stock",
+        "agent": "actor_blind",
+        "n_tokens": 12146,
+        "score": 0.7924537178612596,
+        "sha256": "6005db45014f557d808d9e03388e436873c7d7c7841eedb58bebfe1202ddfd45",
+        "no_at_fault_collisions": 0.9473900872715297,
+        "drivable_area_compliance": 0.9998353367363741,
+        "traffic_light_compliance": 0.9788407706240738,
+        "ego_progress": 0.9995060102091223
+      },
+      "ignore_all": {
+        "score": 0.7963585895415304
+      },
+      "human_replay": {
+        "score": 0.7398820305332736
+      },
+      "pdm_closed": {
+        "score": 0.6712712225528249
+      }
+    },
+    "twosided": {
+      "actor_blind": {
+        "basis": "twosided",
+        "agent": "actor_blind",
+        "n_tokens": 12146,
+        "score": 0.4507686245912822,
+        "sha256": "0bfd6860dcd3a23ea560851bf684ea9e12b096066024d50169a64208fd3e4c6e",
+        "no_at_fault_collisions": 0.5843487567923596,
+        "drivable_area_compliance": 0.9571052198254569,
+        "traffic_light_compliance": 0.9106701794829574,
+        "ego_progress": 1.0,
+        "agent_fallback": NaN,
+        "human_fallback": NaN
+      },
+      "ignore_all": {
+        "score": 0.13288472395380016
+      },
+      "human_replay": {
+        "score": 0.8891228152713415
+      },
+      "pdm_closed": {
+        "score": 0.862426783655995
+      }
+    },
+    "fallback": {
+      "actor_blind": {
+        "basis": "fallback",
+        "agent": "actor_blind",
+        "n_tokens": 12146,
+        "score": 0.4507190723852097,
+        "sha256": "f5c4c1b46b6f8aa8c4daee28e4cd5f8a6241f8377ed8f4ee7152fa8b0255595c",
+        "no_at_fault_collisions": 0.5843487567923596,
+        "drivable_area_compliance": 0.9571052198254569,
+        "traffic_light_compliance": 0.9106701794829574,
+        "ego_progress": 0.9998028620083321,
+        "agent_fallback": 1.0,
+        "human_fallback": 0.0
+      },
+      "ignore_all": {
+        "score": 0.13281652448181336
+      },
+      "human_replay": {
+        "score": 0.8834338004260673
+      },
+      "pdm_closed": {
+        "score": 0.859653066375913
+      }
+    },
+    "filteroff": {
+      "actor_blind": {
+        "basis": "filteroff",
+        "agent": "actor_blind",
+        "n_tokens": 12146,
+        "score": 0.0,
+        "sha256": "54363adc82cc265467018942db08b76a83fa45dad765673ca8715a85dc3d5fd6",
+        "no_at_fault_collisions": 0.9191503375596904,
+        "drivable_area_compliance": 0.0,
+        "traffic_light_compliance": 0.9564465667709534,
+        "ego_progress": 0.9995060102091223
+      },
+      "ignore_all": {
+        "score": 0.0
+      },
+      "human_replay": {
+        "score": 0.0
+      },
+      "pdm_closed": {
+        "score": 0.000896576346809699
+      }
+    }
+  },
+  "summary": {
+    "stock": {
+      "n_tokens": 12146,
+      "score": 0.7924537178612596,
+      "sha256": "6005db45014f557d808d9e03388e436873c7d7c7841eedb58bebfe1202ddfd45",
+      "no_at_fault_collisions": 0.9473900872715297,
+      "drivable_area_compliance": 0.9998353367363741,
+      "traffic_light_compliance": 0.9788407706240738,
+      "ego_progress": 0.9995060102091223
+    },
+    "twosided": {
+      "n_tokens": 12146,
+      "score": 0.4507686245912822,
+      "sha256": "0bfd6860dcd3a23ea560851bf684ea9e12b096066024d50169a64208fd3e4c6e",
+      "no_at_fault_collisions": 0.5843487567923596,
+      "drivable_area_compliance": 0.9571052198254569,
+      "traffic_light_compliance": 0.9106701794829574,
+      "ego_progress": 1.0,
+      "agent_fallback": NaN,
+      "human_fallback": NaN
+    },
+    "fallback": {
+      "n_tokens": 12146,
+      "score": 0.4507190723852097,
+      "sha256": "f5c4c1b46b6f8aa8c4daee28e4cd5f8a6241f8377ed8f4ee7152fa8b0255595c",
+      "no_at_fault_collisions": 0.5843487567923596,
+      "drivable_area_compliance": 0.9571052198254569,
+      "traffic_light_compliance": 0.9106701794829574,
+      "ego_progress": 0.9998028620083321,
+      "agent_fallback": 1.0,
+      "human_fallback": 0.0
+    },
+    "filteroff": {
+      "n_tokens": 12146,
+      "score": 0.0,
+      "sha256": "54363adc82cc265467018942db08b76a83fa45dad765673ca8715a85dc3d5fd6",
+      "no_at_fault_collisions": 0.9191503375596904,
+      "drivable_area_compliance": 0.0,
+      "traffic_light_compliance": 0.9564465667709534,
+      "ego_progress": 0.9995060102091223
+    }
+  },
+  "paired_margins": [
+    {
+      "basis": "stock",
+      "reference": "ignore_all",
+      "n_tokens": 12146,
+      "margin": -0.003904871680270988,
+      "ci_lo": -0.008968781609465785,
+      "ci_hi": 0.0012235803674343056
+    },
+    {
+      "basis": "stock",
+      "reference": "human_replay",
+      "n_tokens": 12146,
+      "margin": 0.05257168732798569,
+      "ci_lo": 0.04644386158876526,
+      "ci_hi": 0.058679150690409534
+    },
+    {
+      "basis": "stock",
+      "reference": "pdm_closed",
+      "n_tokens": 12146,
+      "margin": 0.12118249530843449,
+      "ci_lo": 0.11427255359253448,
+      "ci_hi": 0.1278720485013652
+    },
+    {
+      "basis": "twosided",
+      "reference": "ignore_all",
+      "n_tokens": 12146,
+      "margin": 0.31788390063748206,
+      "ci_lo": 0.3102090488344193,
+      "ci_hi": 0.3256588000752746
+    },
+    {
+      "basis": "twosided",
+      "reference": "human_replay",
+      "n_tokens": 12146,
+      "margin": -0.43835419068005926,
+      "ci_lo": -0.44601985368492864,
+      "ci_hi": -0.4305706170167722
+    },
+    {
+      "basis": "twosided",
+      "reference": "pdm_closed",
+      "n_tokens": 12146,
+      "margin": -0.41165815906471265,
+      "ci_lo": -0.419609262896662,
+      "ci_hi": -0.4040305744395568
+    },
+    {
+      "basis": "fallback",
+      "reference": "ignore_all",
+      "n_tokens": 12146,
+      "margin": 0.3179025479033964,
+      "ci_lo": 0.31020013752014247,
+      "ci_hi": 0.3255904620845041
+    },
+    {
+      "basis": "fallback",
+      "reference": "human_replay",
+      "n_tokens": 12146,
+      "margin": -0.4327147280408576,
+      "ci_lo": -0.44047187365582535,
+      "ci_hi": -0.42497165211062066
+    },
+    {
+      "basis": "fallback",
+      "reference": "pdm_closed",
+      "n_tokens": 12146,
+      "margin": -0.40893399399070324,
+      "ci_lo": -0.4167512433221534,
+      "ci_hi": -0.40106406163487857
+    },
+    {
+      "basis": "filteroff",
+      "reference": "ignore_all",
+      "n_tokens": 12146,
+      "margin": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    },
+    {
+      "basis": "filteroff",
+      "reference": "human_replay",
+      "n_tokens": 12146,
+      "margin": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0
+    },
+    {
+      "basis": "filteroff",
+      "reference": "pdm_closed",
+      "n_tokens": 12146,
+      "margin": -0.000896576346809699,
+      "ci_lo": -0.0014324300629909123,
+      "ci_hi": -0.0004339176982590119
+    }
+  ],
+  "integrity": {
+    "all_actor_files_exact_manifest": true,
+    "all_actor_rows_valid": true,
+    "bootstrap_resamples": 10000,
+    "seed": 0
+  }
+}

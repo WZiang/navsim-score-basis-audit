@@ -1,0 +1,44 @@
+{
+  "conda_prefix": "/ANON_ENV",
+  "control_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/control/__init__.py",
+  "control_version": "0.9.1",
+  "env": {
+    "CONDA_DEFAULT_ENV": "anon_official_env",
+    "CONDA_PREFIX": "/ANON_ENV_OFFICIAL",
+    "LD_LIBRARY_PATH": null,
+    "MC2": null,
+    "MKL_NUM_THREADS": "1",
+    "NAVSIM_METRIC_CACHE": null,
+    "NUPLAN_MAPS_ROOT": null,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OPENSCENE_DATA_ROOT": null,
+    "PYTHONPATH": null
+  },
+  "hostname": "ANON_HOST",
+  "label": "official",
+  "np_show_config": "openblas64__info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nblas_ilp64_opt_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nopenblas64__lapack_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nlapack_ilp64_opt_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2,AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\n    not found = AVX512_KNL,AVX512_KNM\n",
+  "numpy_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/__init__.py",
+  "numpy_version": "1.23.4",
+  "opencv_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/cv2/__init__.py",
+  "opencv_version": "4.9.0",
+  "platform": "Linux-6.8.0-88-generic-x86_64-with-glibc2.35",
+  "python_executable": "/ANON_ENV/bin/python",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "scipy_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/__init__.py",
+  "scipy_version": "1.13.1",
+  "shared_objects": {
+    "numpy_linalg": {
+      "ldd_stderr": "",
+      "ldd_stdout": "\tlinux-vdso.so.1 (0x00007ffd8a545000)\n\tlibopenblas64_p-r0-742d56dc.3.20.so => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/linalg/../../numpy.libs/libopenblas64_p-r0-742d56dc.3.20.so (0x0000747917400000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007479195c2000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007479171d7000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007479194db000)\n\tlibgfortran-040039e1.so.5.0.0 => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/linalg/../../numpy.libs/libgfortran-040039e1.so.5.0.0 (0x0000747916c00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000747919608000)\n\tlibquadmath-96973f99.so.0.0.0 => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/linalg/../../numpy.libs/libquadmath-96973f99.so.0.0.0 (0x0000747916800000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007479194bd000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000074791949d000)\n",
+      "path": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/linalg/_umath_linalg.cpython-39-x86_64-linux-gnu.so",
+      "sha256": "aa03f3d4347f0b213355cf8154a52ae96ec125e2d3d31ca814a00ce8d812a5a3"
+    },
+    "scipy_fblas": {
+      "ldd_stderr": "",
+      "ldd_stdout": "\tlinux-vdso.so.1 (0x00007ffe69dee000)\n\tlibopenblasp-r0-01191904.3.27.so => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/linalg/../../scipy.libs/libopenblasp-r0-01191904.3.27.so (0x00007bf25a088000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007bf259e56000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007bf259d6f000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007bf259d6a000)\n\tlibgfortran-040039e1.so.5.0.0 => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/linalg/../../scipy.libs/libgfortran-040039e1.so.5.0.0 (0x00007bf259800000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007bf25c181000)\n\tlibquadmath-96973f99.so.0.0.0 => /ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/linalg/../../scipy.libs/libquadmath-96973f99.so.0.0.0 (0x00007bf259400000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007bf259d4c000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007bf259d2c000)\n",
+      "path": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/linalg/_fblas.cpython-39-x86_64-linux-gnu.so",
+      "sha256": "0420feb4829abfab416e05f29db1437663a3c1889009ec6b53800b6c5073243a"
+    }
+  }
+}

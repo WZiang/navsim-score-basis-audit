@@ -1,0 +1,40 @@
+{
+  "input_sha256": {
+    "precision_knee_drive/navsim_oracle/results/full_navtest/actor_blind_stock_reactive.csv": "6005db45014f557d808d9e03388e436873c7d7c7841eedb58bebfe1202ddfd45",
+    "precision_knee_drive/navsim_oracle/results/route_sanity/route_metrics_per_token.csv": "f6631a797210feb7fd395b9ac761b274eff43b59b141c81160356e001791fc82",
+    "precision_knee_drive/navsim_oracle/results/documented_condition/human_replay_reactive.csv": "7df8b21c00a52baaa5df62b555c4a7d2df538cdb9a837721ffbe1baa516dcefb"
+  },
+  "limitations": [
+    "Existing artifacts do not identify a causal geometric reason for each tail token.",
+    "Exclusion is a sensitivity analysis, not a replacement full-navtest result."
+  ],
+  "purpose": "Offline sensitivity only; route-tail tokens are defined geometrically as max lateral deviation >= 4m, not causally classified.",
+  "route_aware_minus_human_stock_points": {
+    "all_valid": {
+      "ci_high": 6.172312991377602,
+      "ci_low": 4.369871103422284,
+      "draws": 4000,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": 5.257168732798569,
+      "seed": 0
+    },
+    "excluding_route_tail": {
+      "ci_high": 6.217791353230467,
+      "ci_low": 4.408905851854482,
+      "draws": 4000,
+      "n_logs": 136,
+      "n_tokens": 12028,
+      "point": 5.299836096726684,
+      "seed": 0
+    }
+  },
+  "route_metrics": {
+    "max_max_lateral_m": 44.81857095775908,
+    "n_tail": 118,
+    "n_valid": 12146,
+    "p99_max_lateral_m": 3.7548912551549805,
+    "tail_pct": 0.9715132553927219
+  },
+  "threshold_m": 4.0
+}

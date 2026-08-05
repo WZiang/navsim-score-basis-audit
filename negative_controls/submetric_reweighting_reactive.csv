@@ -1,0 +1,9 @@
+submetric,col,lead_release,ignore_all,PDM_Closed,delta_learned,delta_pdmclosed
+NC,no_at_fault_collisions,87.98,98.34,86.76,-10.36,-11.58
+DAC,drivable_area_compliance,100.0,99.83,100.0,0.17,0.17
+DDC,driving_direction_compliance,99.83,99.83,100.0,0.0,0.17
+TLC,traffic_light_compliance,91.29,95.12,89.9,-3.83,-5.22
+EP,ego_progress,100.0,100.0,100.0,0.0,0.0
+TTC,time_to_collision_within_bound,88.33,97.91,89.02,-9.58,-8.89
+LK,lane_keeping,98.95,99.13,98.78,-0.18,-0.35
+HC*,history_comfort,0.0,0.0,0.0,0.0,0.0

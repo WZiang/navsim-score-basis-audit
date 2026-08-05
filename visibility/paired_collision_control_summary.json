@@ -1,0 +1,9 @@
+{
+  "actor_count_max": 272,
+  "actor_count_min": 63,
+  "n_collision_success_recoveries": 8,
+  "n_paired_collision_risk_tokens": 10,
+  "n_stopped_collision_success": 10,
+  "n_stopped_ttc_success": 10,
+  "n_straight_collision_success": 2
+}

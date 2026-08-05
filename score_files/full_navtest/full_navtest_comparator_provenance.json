@@ -1,0 +1,75 @@
+{
+  "stock": {
+    "ignore_all": {
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/ignore_all_reactive.csv",
+      "sha256": "c5ccc0eb0fbd174570975bede98c3e06da65f6b6d758ffdec9c4e61e751cfdcd",
+      "valid_tokens": 12146
+    },
+    "human_replay": {
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/human_replay_reactive.csv",
+      "sha256": "7df8b21c00a52baaa5df62b555c4a7d2df538cdb9a837721ffbe1baa516dcefb",
+      "valid_tokens": 12146
+    },
+    "pdm_closed": {
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/pdm_closed_reactive.csv",
+      "sha256": "0628f9988e1e32adf48a3f48768e8c52925eaf22f5545da73fd70b11f904aeb0",
+      "valid_tokens": 12146
+    }
+  },
+  "twosided": {
+    "ignore_all": {
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/ignore_all_reactive.csv",
+      "sha256": "23de2a67bf6e8918a82cf57da1ffa59a02e98dbd318d4602f4e8d15bfdc09842",
+      "valid_tokens": 12146
+    },
+    "human_replay": {
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/human_replay_reactive.csv",
+      "sha256": "5f865b1f04460901d8e9a69f12a16b90362344aff58eb48abdeb3852a5a86cf9",
+      "valid_tokens": 12146
+    },
+    "pdm_closed": {
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/pdm_closed_reactive.csv",
+      "sha256": "52cc47c63c7c9a26723a5ebc64ab3181665f071d7ed82935d190f1b1578a6e3c",
+      "valid_tokens": 12146
+    }
+  },
+  "filteroff": {
+    "ignore_all": {
+      "path": "precision_knee_drive/navsim_oracle/results/e27_filteroff/ignore_all_reactive.csv",
+      "sha256": "bf66baf48b87581aec481a21d9472fd4f04cfcbe40bad11860845097b178f1e6",
+      "valid_tokens": 12146
+    },
+    "human_replay": {
+      "path": "precision_knee_drive/navsim_oracle/results/e27_filteroff/human_replay_reactive.csv",
+      "sha256": "696869ffe95b187bb356159652db1003e59bd923869e18ab44a79e5899c5a087",
+      "valid_tokens": 12146
+    },
+    "pdm_closed": {
+      "path": "precision_knee_drive/navsim_oracle/results/e27_filteroff/pdm_closed_reactive.csv",
+      "sha256": "6599c4b82a4875034a69b0bb3d24ef16847efcf6802a159db389e55d6848ffcb",
+      "valid_tokens": 12146
+    }
+  },
+  "fallback": {
+    "ignore_all": {
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/ignore_all_reactive.csv",
+      "sha256": "ce97b8e1cd4a802336bd7c6ca65ee328247f26c8f429c491fffa837187d07404",
+      "valid_tokens": 12146
+    },
+    "human_replay": {
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/human_replay_reactive.csv",
+      "sha256": "6d6918eb9c966556bee7562dbb7f333be580099b47102c0f9d444b1d26cc47fc",
+      "valid_tokens": 12146
+    },
+    "pdm_closed": {
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/pdm_closed_reactive.csv",
+      "sha256": "8b18e5b9bb6d9328d5e0e5f62e9090ada648c84e598dacf8243b632e911086f3",
+      "valid_tokens": 12146
+    }
+  },
+  "scope": "NAVSIM navtest reactive full common-token set",
+  "token_count": 12146,
+  "metric_cache_tokens": 12146,
+  "missing_from_metric_cache": 0,
+  "manifest_sha256": "ff1476c29d0896c081f87389d161cfa0d536b50b6d5baae529a8b0f183acd8a6"
+}

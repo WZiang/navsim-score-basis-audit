@@ -1,0 +1,16 @@
+basis,agent,matched_n,mean_epdms_x100,source_csv
+stock_filter_on,ignore_all,12143,79.6344,results/documented_condition/ignore_all_reactive.csv
+stock_filter_on,human_replay,12143,73.9853,results/documented_condition/human_replay_reactive.csv
+stock_filter_on,diffusion_drive,12143,73.7144,results/published_planner_scores/dd_fullnavtest_reactive.csv
+stock_filter_on,pdm_closed,12143,67.1366,results/documented_condition/pdm_closed_reactive.csv
+stock_filter_on,lead_release,12143,0.0000,results/published_agent_scores/lead_release_filteron_reactive.csv
+two_sided,ignore_all,12143,13.2835,results/two_sided_control/ignore_all_reactive.csv
+two_sided,human_replay,12143,88.9095,results/two_sided_control/human_replay_reactive.csv
+two_sided,diffusion_drive,12143,85.2834,results/two_sided_control/dd_twosided_reactive.csv
+two_sided,pdm_closed,12143,86.2428,results/two_sided_control/pdm_closed_reactive.csv
+two_sided,lead_release,12143,84.4296,results/published_agent_scores/lead_release_twosided_reactive.csv
+fallback,ignore_all,12143,13.2767,results/fallback_control/ignore_all_reactive.csv
+fallback,human_replay,12143,88.3405,results/fallback_control/human_replay_reactive.csv
+fallback,diffusion_drive,12143,84.8812,results/published_agent_scores/dd_e32a_reactive.csv
+fallback,pdm_closed,12143,85.9654,results/fallback_control/pdm_closed_reactive.csv
+fallback,lead_release,12143,83.3603,results/published_agent_scores/lead_release_e32a_reactive.csv

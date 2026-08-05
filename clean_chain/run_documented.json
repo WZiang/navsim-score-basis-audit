@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "precision_knee_drive/navsim_oracle/clean_chain_smoke.py",
+    "score-env",
+    "--label",
+    "official",
+    "--environment",
+    "B",
+    "--include-filter-off"
+  ],
+  "ended_at_utc": "2026-07-15T05:54:14.372743Z",
+  "environment": "B",
+  "include_filter_off": true,
+  "input_hashes": {
+    "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/e87_community_impact/gtrs/smoke32_tokens.json": "51a005dfe299844f25a840b04b2d54dd27ad81429bfd35b0df421ffde31c0840"
+  },
+  "label": "official",
+  "metric_cache": "/ANON_METRIC_CACHE",
+  "metric_cache_exists": true,
+  "navsim_root": "/ANON_NAVSIM_ROOT",
+  "navsim_root_exists": true,
+  "numpy_version": "1.23.4",
+  "output_csv": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/feedback_closure/clean_chain_per_token_official.csv",
+  "python_executable": "/ANON_ENV/bin/python",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "started_at_utc": "2026-07-15T05:53:42.522953Z",
+  "token_count": 32,
+  "tokens_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/e87_community_impact/gtrs/smoke32_tokens.json",
+  "tokens_json_sha256": "51a005dfe299844f25a840b04b2d54dd27ad81429bfd35b0df421ffde31c0840"
+}

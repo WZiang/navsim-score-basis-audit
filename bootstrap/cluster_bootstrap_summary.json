@@ -1,0 +1,44 @@
+{
+  "ignoreall_minus_human_fallback": {
+    "ci_high": -72.61871395173758,
+    "ci_low": -77.56474692958953,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": -75.06172759442539
+  },
+  "ignoreall_minus_human_stock": {
+    "ci_high": 6.577209373647401,
+    "ci_low": 4.787122056614205,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": 5.647655900825668
+  },
+  "ignoreall_minus_human_twosided": {
+    "ci_high": -73.20302925407145,
+    "ci_low": -78.01419733356336,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": -75.62380913175413
+  },
+  "route_aware_minus_human_stock": {
+    "ci_high": 6.172312991377602,
+    "ci_low": 4.369871103422286,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": 5.257168732798569
+  },
+  "route_aware_minus_ignoreall_stock": {
+    "ci_high": 0.18424561826214292,
+    "ci_low": -0.9339382389313685,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": -0.3904871680270988
+  },
+  "route_aware_minus_pdm_stock": {
+    "ci_high": 13.728539697614412,
+    "ci_low": 10.527788350635664,
+    "n_logs": 136,
+    "n_tokens": 12146,
+    "point": 12.118249530843448
+  }
+}

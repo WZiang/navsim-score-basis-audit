@@ -1,0 +1,32 @@
+# exact-input diagnostic — Exact-Input Numerical Diagnostic
+
+## Inputs
+
+- Canonical source mode: `recovered_official_npz`
+- Canonical normal SHA-256: `afdced9f8748ff113a564082cc1121d383a7ba5940e1558e075f99560a9a5a9e`
+- Canonical rhs SHA-256: `d53960a4e240c5a89d62ef380a39ee6902ef14b3c80dd0b3e51a313caea4021b`
+- Rebuilt-vs-loaded normal max abs diff: `0.000e+00`
+- Rebuilt-vs-loaded rhs max abs diff: `0.000e+00`
+
+## Environment gates
+
+- Official NumPy/SciPy/OpenCV: `1.23.4` / `1.13.1` / `4.9.0`
+- NumPy-2 control NumPy/SciPy/OpenCV: `2.0.2` / `1.13.1` / `4.13.0`
+- Official module hashes match fresh-reproduction diagnostic-B anchors: `True`
+- NumPy-2 module hashes match fresh-reproduction diagnostic-B anchors: `True`
+
+## Shared-input unit result
+
+- Official classification: `INCONCLUSIVE`
+- Official observed stock failure: `True`; physical reference solvers OK: `True`
+- Official Hermitian-vs-solve `v0` delta: `0.0016712398996059363` m/s
+- Official default `pinv` result: `v0=-491.34368772026016` m/s, `max_abs_acceleration=408723.9020216601` m/s^2
+- NumPy-2 classification: `NOT_REPRODUCED`; observed stock failure: `False`
+- Condition number: `4526.615695031688`; effective rank at default cutoff: `40`
+- Last five singular values: `[0.0001257233417122518, 0.00012540351427860484, 0.00012517828399768267, 0.00012504441390100415, 0.00010000000000000002]`
+
+## Verdict
+
+Shared-input unit trigger remains formally INCONCLUSIVE, but the official default pseudoinverse still blows up while the NumPy-2 control remains physical.
+
+The bounded factual claims remain separate from the preregistered label: the official default pseudoinverse failure is reported directly, and the stricter classifier is left unchanged.

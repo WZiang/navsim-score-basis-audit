@@ -1,0 +1,4 @@
+environment,setting,token_count,valid_ignore_all,valid_human,divergence_rate_ignore_all,divergence_rate_human,human_ref_core_fail_rate,overwrite_rate_ignore_all,overwrite_rate_human,mean_score_ignore_all,mean_score_human,margin_ignore_all_minus_human
+B,filter_on,32,32/32,32/32,1.0,1.0,1.0,1.0,1.0,0.8571428571428571,0.7712053571428572,0.08593749999999989
+B,filter_off,32,32/32,32/32,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0
+B2,filter_on,32,32/32,32/32,0.0,0.0,0.15625,0.125,0.15625,0.125,0.9901298898759492,-0.8651298898759492

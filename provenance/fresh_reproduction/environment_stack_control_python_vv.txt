@@ -1,0 +1,2 @@
+Python 3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12)
+[GCC 13.3.0]

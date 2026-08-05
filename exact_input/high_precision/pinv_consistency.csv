@@ -1,0 +1,5 @@
+environment,solver,aa_plus_a_minus_a_rel_fro,a_plus_a_a_plus_minus_a_plus_rel_fro
+B,np_pinv_default,1126.764717347036,4493.399519627095
+B,np_pinv_hermitian,1.0571197140617675e-14,6.872967662759206e-13
+B2,np_pinv_default,1.8532055637297022e-14,2.982302152633126e-14
+B2,np_pinv_hermitian,2.1313033857508155e-14,6.666603121125431e-14

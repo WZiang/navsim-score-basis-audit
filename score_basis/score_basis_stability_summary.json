@@ -1,0 +1,92 @@
+{
+  "scope": "full navtest, reactive; file-only aggregation over committed E27/E31/E32-A/E35 outputs",
+  "rows": [
+    {
+      "agent": "ignore_all",
+      "n_pair": 12146,
+      "filter_on_score": 0.7963585895415304,
+      "filter_off_score": 0.0,
+      "two_sided_score": 0.13288472395380016,
+      "e32a_score": 0.13281652448181336,
+      "any_metric_fail_to_pass_rate": 0.9998353367363741,
+      "dac_fail_to_pass_rate": 0.9998353367363741,
+      "ddc_fail_to_pass_rate": 0.9998353367363741,
+      "lk_fail_to_pass_rate": 0.9991766836818706,
+      "e32a_fallback_rate": 1.0,
+      "median_path_dev_km": 68.35093295259475,
+      "p90_path_dev_km": 195.49291285951574
+    },
+    {
+      "agent": "stop",
+      "n_pair": 12146,
+      "filter_on_score": 0.6509315054684943,
+      "filter_off_score": 0.11699839069483879,
+      "two_sided_score": 0.872256592411376,
+      "e32a_score": 0.8539843853350404,
+      "any_metric_fail_to_pass_rate": 0.8972501234974477,
+      "dac_fail_to_pass_rate": 0.8645644656677095,
+      "ddc_fail_to_pass_rate": 0.8650584554585872,
+      "lk_fail_to_pass_rate": 0.8677753993084143,
+      "e32a_fallback_rate": 0.8602832208134366,
+      "median_path_dev_km": 11.675018328146962,
+      "p90_path_dev_km": 59.212760539196516
+    },
+    {
+      "agent": "human_replay",
+      "n_pair": 12146,
+      "filter_on_score": 0.7398820305332737,
+      "filter_off_score": 0.0,
+      "two_sided_score": 0.8891228152713415,
+      "e32a_score": 0.8834338004260673,
+      "any_metric_fail_to_pass_rate": 1.0,
+      "dac_fail_to_pass_rate": 0.9998353367363741,
+      "ddc_fail_to_pass_rate": 0.9997530051045612,
+      "lk_fail_to_pass_rate": 0.9978593775728635,
+      "e32a_fallback_rate": 0.9944014490367199,
+      "median_path_dev_km": 7.216640745387122,
+      "p90_path_dev_km": 22.751548350141693
+    },
+    {
+      "agent": "pdm_closed",
+      "n_pair": 12146,
+      "filter_on_score": 0.6712712225528249,
+      "filter_off_score": 0.000896576346809699,
+      "two_sided_score": 0.8624267836559949,
+      "e32a_score": 0.8596530663759132,
+      "any_metric_fail_to_pass_rate": 0.998682693890993,
+      "dac_fail_to_pass_rate": 0.9976947143092376,
+      "ddc_fail_to_pass_rate": 0.9974477194137987,
+      "lk_fail_to_pass_rate": 0.9953894286184752,
+      "e32a_fallback_rate": 0.9947307755639717,
+      "median_path_dev_km": 4.223019294256473,
+      "p90_path_dev_km": 12.486507349756616
+    },
+    {
+      "agent": "diffusiondrive",
+      "n_pair": 12143,
+      "filter_on_score": 0.7371442688909542,
+      "filter_off_score": 0.0,
+      "two_sided_score": 0.8528340843048906,
+      "e32a_score": 0.8488118080669967,
+      "any_metric_fail_to_pass_rate": 1.0,
+      "dac_fail_to_pass_rate": 0.9999176480276702,
+      "ddc_fail_to_pass_rate": 0.9999176480276702,
+      "lk_fail_to_pass_rate": 0.9976941447747674,
+      "e32a_fallback_rate": 0.9960471053281726,
+      "median_path_dev_km": 7.075056333368936,
+      "p90_path_dev_km": 21.921236843002912
+    }
+  ],
+  "headline": {
+    "overwrite_near_saturated_agents": [
+      "ignore_all",
+      "human_replay",
+      "pdm_closed",
+      "diffusiondrive"
+    ],
+    "fallback_rate_min": 0.8602832208134366,
+    "fallback_rate_max": 1.0,
+    "median_path_dev_km_min": 4.223019294256473,
+    "median_path_dev_km_max": 68.35093295259475
+  }
+}

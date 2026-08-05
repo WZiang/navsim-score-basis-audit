@@ -1,0 +1,154 @@
+{
+  "excluded_summary_tokens": [
+    "aggregate_summary_row"
+  ],
+  "expected_percent_assertions": {
+    "fallback/diffusion_drive": 84.8812,
+    "fallback/human_replay": 88.3405,
+    "fallback/ignore_all": 13.2767,
+    "fallback/lead_release": 83.3603,
+    "fallback/pdm_closed": 85.9654,
+    "stock_filter_on/diffusion_drive": 73.7144,
+    "stock_filter_on/human_replay": 73.9853,
+    "stock_filter_on/ignore_all": 79.6344,
+    "stock_filter_on/lead_release": 0.0,
+    "stock_filter_on/pdm_closed": 67.1366,
+    "two_sided/diffusion_drive": 85.2834,
+    "two_sided/human_replay": 88.9095,
+    "two_sided/ignore_all": 13.2835,
+    "two_sided/lead_release": 84.4296,
+    "two_sided/pdm_closed": 86.2428
+  },
+  "global_matched_token_count": 12143,
+  "inputs": [
+    {
+      "agent": "ignore_all",
+      "basis": "stock_filter_on",
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/ignore_all_reactive.csv",
+      "sha256": "c5ccc0eb0fbd174570975bede98c3e06da65f6b6d758ffdec9c4e61e751cfdcd",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "human_replay",
+      "basis": "stock_filter_on",
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/human_replay_reactive.csv",
+      "sha256": "7df8b21c00a52baaa5df62b555c4a7d2df538cdb9a837721ffbe1baa516dcefb",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "diffusion_drive",
+      "basis": "stock_filter_on",
+      "path": "precision_knee_drive/navsim_oracle/results/published_planner_scores/dd_fullnavtest_reactive.csv",
+      "sha256": "8ef151d87e9f457e0ea34d8b0495ec0797889c7ab92dbc5f0af56e22e27d1153",
+      "valid_finite_token_count": 12143
+    },
+    {
+      "agent": "pdm_closed",
+      "basis": "stock_filter_on",
+      "path": "precision_knee_drive/navsim_oracle/results/documented_condition/pdm_closed_reactive.csv",
+      "sha256": "0628f9988e1e32adf48a3f48768e8c52925eaf22f5545da73fd70b11f904aeb0",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "lead_release",
+      "basis": "stock_filter_on",
+      "path": "precision_knee_drive/navsim_oracle/results/published_agent_scores/lead_release_filteron_reactive.csv",
+      "sha256": "46fb5f2d03064a0521f19d12ff06a7d78c8afdbb85fe1fad71ba303b9b937141",
+      "valid_finite_token_count": 12143
+    },
+    {
+      "agent": "ignore_all",
+      "basis": "two_sided",
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/ignore_all_reactive.csv",
+      "sha256": "23de2a67bf6e8918a82cf57da1ffa59a02e98dbd318d4602f4e8d15bfdc09842",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "human_replay",
+      "basis": "two_sided",
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/human_replay_reactive.csv",
+      "sha256": "5f865b1f04460901d8e9a69f12a16b90362344aff58eb48abdeb3852a5a86cf9",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "diffusion_drive",
+      "basis": "two_sided",
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/dd_twosided_reactive.csv",
+      "sha256": "25ef327d9c0a5f3628913cd2d5162fc7f09ba7250b0c43fc5b67b74b5f92a7a7",
+      "valid_finite_token_count": 12143
+    },
+    {
+      "agent": "pdm_closed",
+      "basis": "two_sided",
+      "path": "precision_knee_drive/navsim_oracle/results/two_sided_control/pdm_closed_reactive.csv",
+      "sha256": "52cc47c63c7c9a26723a5ebc64ab3181665f071d7ed82935d190f1b1578a6e3c",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "lead_release",
+      "basis": "two_sided",
+      "path": "precision_knee_drive/navsim_oracle/results/published_agent_scores/lead_release_twosided_reactive.csv",
+      "sha256": "83518db49324f809799a17a45bfbc83938ac6405392c0f8425bd615a8a30750a",
+      "valid_finite_token_count": 12143
+    },
+    {
+      "agent": "ignore_all",
+      "basis": "fallback",
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/ignore_all_reactive.csv",
+      "sha256": "ce97b8e1cd4a802336bd7c6ca65ee328247f26c8f429c491fffa837187d07404",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "human_replay",
+      "basis": "fallback",
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/human_replay_reactive.csv",
+      "sha256": "6d6918eb9c966556bee7562dbb7f333be580099b47102c0f9d444b1d26cc47fc",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "diffusion_drive",
+      "basis": "fallback",
+      "path": "precision_knee_drive/navsim_oracle/results/published_agent_scores/dd_e32a_reactive.csv",
+      "sha256": "26918d95eabce9ad9a3a97e98cadbdd75781687e643a8e518652b53d983ff443",
+      "valid_finite_token_count": 12143
+    },
+    {
+      "agent": "pdm_closed",
+      "basis": "fallback",
+      "path": "precision_knee_drive/navsim_oracle/results/fallback_control/pdm_closed_reactive.csv",
+      "sha256": "8b18e5b9bb6d9328d5e0e5f62e9090ada648c84e598dacf8243b632e911086f3",
+      "valid_finite_token_count": 12146
+    },
+    {
+      "agent": "lead_release",
+      "basis": "fallback",
+      "path": "precision_knee_drive/navsim_oracle/results/published_agent_scores/lead_release_e32a_reactive.csv",
+      "sha256": "a62869cf69f460b00a37f2d8df4279a717244b52b898464c42f9816473ee8836",
+      "valid_finite_token_count": 12143
+    }
+  ],
+  "purpose": "offline matched-scope consequence audit; no scorer executed",
+  "summary_percent": {
+    "fallback": {
+      "diffusion_drive": 84.88118080669967,
+      "human_replay": 88.34050020567416,
+      "ignore_all": 13.27669856177308,
+      "lead_release": 83.36027053316187,
+      "pdm_closed": 85.96536865379568
+    },
+    "stock_filter_on": {
+      "diffusion_drive": 73.71442688909542,
+      "human_replay": 73.98530605522288,
+      "ignore_all": 79.63435724285597,
+      "lead_release": 0.0,
+      "pdm_closed": 67.13664766754071
+    },
+    "two_sided": {
+      "diffusion_drive": 85.28340843048906,
+      "human_replay": 88.90954224067951,
+      "ignore_all": 13.283520193880072,
+      "lead_release": 84.4295949459418,
+      "pdm_closed": 86.2428089081305
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "a_mat_sha256": "4e8a6853cb92235658aac3f9b9eb036f6525c5d42014f0d2e73682974da66ecf",
+  "heading_prof_sha256": "c1928817cf9ce1c2f736376c2afe199953eac63c94aafbc5c04188efe052713c",
+  "loaded_normal_sha256": "afdced9f8748ff113a564082cc1121d383a7ba5940e1558e075f99560a9a5a9e",
+  "loaded_rhs_sha256": "d53960a4e240c5a89d62ef380a39ee6902ef14b3c80dd0b3e51a313caea4021b",
+  "rebuilt_normal_allclose_loaded": true,
+  "rebuilt_normal_max_abs_diff": 0.0,
+  "rebuilt_normal_sha256": "afdced9f8748ff113a564082cc1121d383a7ba5940e1558e075f99560a9a5a9e",
+  "rebuilt_rhs_allclose_loaded": true,
+  "rebuilt_rhs_max_abs_diff": 0.0,
+  "rebuilt_rhs_sha256": "d53960a4e240c5a89d62ef380a39ee6902ef14b3c80dd0b3e51a313caea4021b",
+  "source_mode": "recovered_official_npz",
+  "source_npz": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/fresh_reproduction/unit_repro_official_canonical_arrays.npz",
+  "source_npz_exists": true,
+  "source_npz_sha256": "aa8fb4c9a4cfb0e34cfdadf0c1706254d7d8eb4379135b5f0672030a5a283dab",
+  "step_lengths_sha256": "cc8bb86dcb9babf489db205951c184678511bc3fdcefb0da725727f96f7b715f",
+  "xy_disp_sha256": "90152eb335ef9b448d3343708db782030d4cb2fb9200e6659c07082bda0e3044",
+  "y_sha256": "90152eb335ef9b448d3343708db782030d4cb2fb9200e6659c07082bda0e3044"
+}

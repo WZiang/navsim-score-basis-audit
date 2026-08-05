@@ -1,0 +1,10 @@
+{
+  "all_points_within_4m_pct": 99.02848674460728,
+  "endpoint_within_4m_pct": 99.02848674460728,
+  "max_max_route_deviation_m": 44.81857095775908,
+  "median_max_route_deviation_m": 1.3395840421903827e-07,
+  "n_tokens": 12146,
+  "p90_max_route_deviation_m": 6.736560468058551e-07,
+  "p99_max_route_deviation_m": 3.7548912551549805,
+  "positive_progress_pct": 99.96706734727482
+}

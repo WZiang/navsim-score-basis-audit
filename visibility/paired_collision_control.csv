@@ -1,0 +1,11 @@
+token,n_actors,straight_nc,stopped_nc,straight_ttc,stopped_ttc,straight_valid,stopped_valid
+1d7fd5ffc1e3571c,239,0.0,1.0,0.0,1.0,True,True
+24567f5ad57455c4,103,1.0,1.0,1.0,1.0,True,True
+2a8b9c88615450a8,147,0.0,1.0,1.0,1.0,True,True
+4b594a8e80915943,272,0.0,1.0,0.0,1.0,True,True
+6894aab92b0058dd,140,0.0,1.0,0.0,1.0,True,True
+812464919a4f5362,270,0.0,1.0,0.0,1.0,True,True
+a25711b4fdcc50df,139,0.0,1.0,0.0,1.0,True,True
+c50b9b8950ba5347,63,0.0,1.0,0.0,1.0,True,True
+ed98a4566ea95092,116,1.0,1.0,1.0,1.0,True,True
+fe703fbf263151f2,235,0.0,1.0,1.0,1.0,True,True

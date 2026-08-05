@@ -1,0 +1,21 @@
+{
+  "scope": "NAVSIM navtest reactive full common-token set",
+  "basis": "stock",
+  "manifest": "full_navtest_tokens.json",
+  "n_tokens": 12146,
+  "first_csv": "actor_blind_stock_reactive.csv",
+  "repeat_csv": "actor_blind_stock_reactive_repeat.csv",
+  "first_csv_sha256": "6005db45014f557d808d9e03388e436873c7d7c7841eedb58bebfe1202ddfd45",
+  "repeat_csv_sha256": "6005db45014f557d808d9e03388e436873c7d7c7841eedb58bebfe1202ddfd45",
+  "runtime_fields_ignored": [
+    "log_name",
+    "start_time"
+  ],
+  "score_mismatches": 0,
+  "non_runtime_field_mismatches": {},
+  "aggregate_score_first": 0.7924537178612596,
+  "aggregate_score_repeat": 0.7924537178612596,
+  "input_boundary_audit_repeat": "input_boundary_audit_stock_repeat_summary.json",
+  "verdict": "PASS",
+  "checked_at_utc": "2026-07-13T06:15:18.330867+00:00"
+}

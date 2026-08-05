@@ -1,0 +1,11 @@
+{
+  "baseline_reproduction_passed": true,
+  "endpoint_extrapolation_used_true": 118,
+  "frozen_input_sha256": "d61f5b97ead718e51029cbcf47159b24819a5e7a89bc7fb88d8b9604343ea934",
+  "instrumentation_reproduction_passed": true,
+  "n_tail": 118,
+  "route_builder_stop_reason_counts": {
+    "no_outgoing_edge": 118
+  },
+  "trace_reproduction_passed": true
+}

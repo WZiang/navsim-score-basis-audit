@@ -1,0 +1,114 @@
+{
+  "anchor_label": "np2_control",
+  "classification": "NOT_REPRODUCED",
+  "input_metadata_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/exact_input_numeric/canonical_input_metadata.json",
+  "input_npz": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/exact_input_numeric/canonical_input.npz",
+  "input_npz_sha256": "a70959b6833603bd79e08afab588be994e42a1cabe1c1a2c97fbe6edb0dd2d3c",
+  "label": "np2",
+  "matrix": {
+    "condition_number": 4526.615695031688,
+    "default_pinv_cutoff": 4.5266156950316895e-16,
+    "default_pinv_rcond": 1e-15,
+    "dtype": "float64",
+    "effective_rank_default_cutoff": 40,
+    "last_five_singular_values": [
+      0.0001257233417122518,
+      0.00012540351427860484,
+      0.00012517828399768267,
+      0.00012504441390100415,
+      0.00010000000000000002
+    ],
+    "normal_sha256": "afdced9f8748ff113a564082cc1121d383a7ba5940e1558e075f99560a9a5a9e",
+    "rhs_sha256": "d53960a4e240c5a89d62ef380a39ee6902ef14b3c80dd0b3e51a313caea4021b",
+    "shape": [
+      40,
+      40
+    ],
+    "sigma_max": 0.4526615695031689,
+    "sigma_min": 0.00010000000000000002,
+    "symmetry_error_fro_over_fro": 0.0
+  },
+  "numpy_version": "2.0.2",
+  "observed": {
+    "hermitian_solve_v0_delta": 1.438849039914203e-13,
+    "physical_reference_solvers_ok": true,
+    "stock_failure_observed": false
+  },
+  "python_executable": "/ANON_ENV/bin/python",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "results": {
+    "np_lstsq": {
+      "error": null,
+      "fit_residual_l2": 0.007086751224204285,
+      "max_abs_acceleration": 1.043894481199929,
+      "max_abs_velocity": 12.533835468245961,
+      "normal_relative_residual": 1.0816455054415804e-15,
+      "normal_residual_l2": 6.425628611055021e-15,
+      "physical_status": true,
+      "solution_l2": 13.372359169013103,
+      "solver": "np_lstsq",
+      "v0_mps": 12.533835468245961
+    },
+    "np_pinv_default": {
+      "error": null,
+      "fit_residual_l2": 0.007086751224164949,
+      "max_abs_acceleration": 1.0438944811996436,
+      "max_abs_velocity": 12.53383546824594,
+      "normal_relative_residual": 2.3768353162917137e-14,
+      "normal_residual_l2": 1.4119839573405336e-13,
+      "physical_status": true,
+      "solution_l2": 13.372359169013324,
+      "solver": "np_pinv_default",
+      "v0_mps": 12.53383546824594
+    },
+    "np_pinv_hermitian": {
+      "error": null,
+      "fit_residual_l2": 0.007086751224201839,
+      "max_abs_acceleration": 1.0438944812000983,
+      "max_abs_velocity": 12.533835468245996,
+      "normal_relative_residual": 6.558676486533152e-15,
+      "normal_residual_l2": 3.896250580296745e-14,
+      "physical_status": true,
+      "solution_l2": 13.37235916901308,
+      "solver": "np_pinv_hermitian",
+      "v0_mps": 12.533835468245996
+    },
+    "np_solve": {
+      "error": null,
+      "fit_residual_l2": 0.0070867512241971345,
+      "max_abs_acceleration": 1.043894481199916,
+      "max_abs_velocity": 12.533835468245853,
+      "normal_relative_residual": 1.8154295105557409e-16,
+      "normal_residual_l2": 1.0784749481872294e-15,
+      "physical_status": true,
+      "solution_l2": 13.372359169013032,
+      "solver": "np_solve",
+      "v0_mps": 12.533835468245853
+    },
+    "scipy_pinv": {
+      "error": null,
+      "fit_residual_l2": 0.007086751224168767,
+      "max_abs_acceleration": 1.0438944811996507,
+      "max_abs_velocity": 12.533835468245904,
+      "normal_relative_residual": 1.6243620704892254e-14,
+      "normal_residual_l2": 9.649693307408533e-14,
+      "physical_status": true,
+      "solution_l2": 13.372359169013276,
+      "solver": "scipy_pinv",
+      "v0_mps": 12.533835468245904
+    },
+    "scipy_pinvh": {
+      "error": null,
+      "fit_residual_l2": 0.007086751224191525,
+      "max_abs_acceleration": 1.043894481199814,
+      "max_abs_velocity": 12.533835468246082,
+      "normal_relative_residual": 2.8146995207027757e-14,
+      "normal_residual_l2": 1.6721017820313444e-13,
+      "physical_status": true,
+      "solution_l2": 13.372359169013283,
+      "solver": "scipy_pinvh",
+      "v0_mps": 12.533835468246082
+    }
+  },
+  "scipy_version": "1.13.1"
+}

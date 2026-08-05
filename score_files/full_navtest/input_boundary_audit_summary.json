@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "tokens_requested": 12146,
+  "tokens_audited": 12146,
+  "tokens_failed": 0,
+  "zero_actor_consumption_frames": 12146,
+  "static_forbidden_attribute_uses": {
+    "policy": [],
+    "context": []
+  },
+  "audit_csv": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/full_navtest/input_boundary_audit.csv",
+  "failures": []
+}

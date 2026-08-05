@@ -1,0 +1,69 @@
+{
+  "anchor_environment_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/fresh_reproduction/environment_official.json",
+  "anchor_label": "official",
+  "anchor_module_json": "/ANON_REPO_ROOT/precision_knee_drive/navsim_oracle/results/fresh_reproduction/module_provenance_official.json",
+  "conda_prefix": "/ANON_ENV",
+  "control_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/control/__init__.py",
+  "control_version": "0.9.1",
+  "env": {
+    "CONDA_DEFAULT_ENV": "anon_official_env",
+    "CONDA_PREFIX": "/ANON_ENV_OFFICIAL",
+    "LD_LIBRARY_PATH": null,
+    "MC2": null,
+    "MKL_NUM_THREADS": "1",
+    "NAVSIM_METRIC_CACHE": null,
+    "NUPLAN_MAPS_ROOT": null,
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OPENSCENE_DATA_ROOT": null,
+    "PYTHONPATH": null
+  },
+  "hostname": "ANON_HOST",
+  "label": "official",
+  "matches_official_environment_anchor": {
+    "control_version": true,
+    "numpy_version": true,
+    "opencv_version": true,
+    "scipy_version": true
+  },
+  "modules": {
+    "batch_lqr_utils": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/planning/simulation/planner/pdm_planner/simulation/batch_lqr_utils.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "80d7e1e51adcf0167bbd3c81244c1c84951794a092fdf47384632debce39ebf1",
+      "sha256_loaded": "80d7e1e51adcf0167bbd3c81244c1c84951794a092fdf47384632debce39ebf1",
+      "under_navsim_root": true
+    },
+    "navsim": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/__init__.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_loaded": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "under_navsim_root": true
+    },
+    "pdm_score": {
+      "file": "/ANON_NAVSIM_ROOT/navsim/evaluate/pdm_score.py",
+      "matches_public_source_git_head": true,
+      "matches_public_source_loaded": true,
+      "matches_git_head": true,
+      "sha256_git_head": "066ff166f8cd9de69499f522d78b9d82207c1ce0daf36bd4d0870ad9439e4b1a",
+      "sha256_loaded": "066ff166f8cd9de69499f522d78b9d82207c1ce0daf36bd4d0870ad9439e4b1a",
+      "under_navsim_root": true
+    }
+  },
+  "navsim_root": "/ANON_NAVSIM_ROOT",
+  "np_show_config": "openblas64__info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nblas_ilp64_opt_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nopenblas64__lapack_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nlapack_ilp64_opt_info:\n    libraries = ['openblas64_', 'openblas64_']\n    library_dirs = ['/usr/local/lib']\n    language = c\n    define_macros = [('HAVE_CBLAS', None), ('BLAS_SYMBOL_SUFFIX', '64_'), ('HAVE_BLAS_ILP64', None), ('HAVE_LAPACKE', None)]\n    runtime_library_dirs = ['/usr/local/lib']\nSupported SIMD extensions in this NumPy install:\n    baseline = SSE,SSE2,SSE3\n    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2,AVX512F,AVX512CD,AVX512_SKX,AVX512_CLX,AVX512_CNL,AVX512_ICL\n    not found = AVX512_KNL,AVX512_KNM\n",
+  "numpy_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/numpy/__init__.py",
+  "numpy_version": "1.23.4",
+  "opencv_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/cv2/__init__.py",
+  "opencv_version": "4.9.0",
+  "platform": "Linux-6.8.0-88-generic-x86_64-with-glibc2.35",
+  "python_executable": "/ANON_ENV/bin/python",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]",
+  "scipy_file": "/ANON_ENV_OFFICIAL/lib/python3.9/site-packages/scipy/__init__.py",
+  "scipy_version": "1.13.1"
+}

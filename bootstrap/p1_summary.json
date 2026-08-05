@@ -1,0 +1,144 @@
+{
+  "a_norm_2": 0.45266156950316877,
+  "b_norm_2": 5.940604919753045,
+  "backward_error_rows": [
+    {
+      "backward_error": 0.04211499280561325,
+      "environment": "official",
+      "normal_residual_l2": 20763.8813080496,
+      "solution_l2": 1089163.1742917683,
+      "solver": "np_pinv_default"
+    },
+    {
+      "backward_error": 3.248565276472575e-15,
+      "environment": "official",
+      "normal_residual_l2": 3.896250580296745e-14,
+      "solution_l2": 13.37235916901308,
+      "solver": "np_pinv_hermitian"
+    },
+    {
+      "backward_error": 0.0004369765602425703,
+      "environment": "official",
+      "normal_residual_l2": 0.0055353269528128,
+      "solution_l2": 14.860388087469245,
+      "solver": "np_solve"
+    },
+    {
+      "backward_error": 5.357477286225317e-16,
+      "environment": "official",
+      "normal_residual_l2": 6.425628611055021e-15,
+      "solution_l2": 13.372359169013103,
+      "solver": "np_lstsq"
+    },
+    {
+      "backward_error": 8.04559613428904e-15,
+      "environment": "official",
+      "normal_residual_l2": 9.649693307408533e-14,
+      "solution_l2": 13.372359169013276,
+      "solver": "scipy_pinv"
+    },
+    {
+      "backward_error": 1.3941433375214775e-14,
+      "environment": "official",
+      "normal_residual_l2": 1.6721017820313444e-13,
+      "solution_l2": 13.372359169013285,
+      "solver": "scipy_pinvh"
+    },
+    {
+      "backward_error": 1.1772656712452516e-14,
+      "environment": "np2",
+      "normal_residual_l2": 1.4119839573405336e-13,
+      "solution_l2": 13.372359169013324,
+      "solver": "np_pinv_default"
+    },
+    {
+      "backward_error": 3.248565276472575e-15,
+      "environment": "np2",
+      "normal_residual_l2": 3.896250580296745e-14,
+      "solution_l2": 13.37235916901308,
+      "solver": "np_pinv_hermitian"
+    },
+    {
+      "backward_error": 8.991968550338379e-17,
+      "environment": "np2",
+      "normal_residual_l2": 1.0784749481872294e-15,
+      "solution_l2": 13.372359169013032,
+      "solver": "np_solve"
+    },
+    {
+      "backward_error": 5.357477286225317e-16,
+      "environment": "np2",
+      "normal_residual_l2": 6.425628611055021e-15,
+      "solution_l2": 13.372359169013103,
+      "solver": "np_lstsq"
+    },
+    {
+      "backward_error": 8.04559613428904e-15,
+      "environment": "np2",
+      "normal_residual_l2": 9.649693307408533e-14,
+      "solution_l2": 13.372359169013276,
+      "solver": "scipy_pinv"
+    },
+    {
+      "backward_error": 1.3941433375214775e-14,
+      "environment": "np2",
+      "normal_residual_l2": 1.6721017820313444e-13,
+      "solution_l2": 13.372359169013285,
+      "solver": "scipy_pinvh"
+    }
+  ],
+  "bootstrap": {
+    "ignoreall_minus_human_fallback": {
+      "ci_high": -72.61871395173758,
+      "ci_low": -77.56474692958953,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": -75.06172759442539
+    },
+    "ignoreall_minus_human_stock": {
+      "ci_high": 6.577209373647401,
+      "ci_low": 4.787122056614205,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": 5.647655900825668
+    },
+    "ignoreall_minus_human_twosided": {
+      "ci_high": -73.20302925407145,
+      "ci_low": -78.01419733356336,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": -75.62380913175413
+    },
+    "route_aware_minus_human_stock": {
+      "ci_high": 6.172312991377602,
+      "ci_low": 4.369871103422286,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": 5.257168732798569
+    },
+    "route_aware_minus_ignoreall_stock": {
+      "ci_high": 0.18424561826214292,
+      "ci_low": -0.9339382389313685,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": -0.3904871680270988
+    },
+    "route_aware_minus_pdm_stock": {
+      "ci_high": 13.728539697614412,
+      "ci_low": 10.527788350635664,
+      "n_logs": 136,
+      "n_tokens": 12146,
+      "point": 12.118249530843448
+    }
+  },
+  "route_metrics": {
+    "all_points_within_4m_pct": 99.02848674460728,
+    "endpoint_within_4m_pct": 99.02848674460728,
+    "max_max_route_deviation_m": 44.81857095775908,
+    "median_max_route_deviation_m": 1.3395840421903827e-07,
+    "n_tokens": 12146,
+    "p90_max_route_deviation_m": 6.736560468058551e-07,
+    "p99_max_route_deviation_m": 3.7548912551549805,
+    "positive_progress_pct": 99.96706734727482
+  }
+}
