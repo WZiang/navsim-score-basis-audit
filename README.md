@@ -2,7 +2,7 @@
 
 Reproducibility artifact for "When Shared Rollouts Fail in Defensive-Driving
 Evaluation: A NAVSIM Score-Basis Audit," by Ziang Wei, Minjun Yu, Zheyuan Lai,
-Mingjie Pang, and Wei Li.
+Mingjie Pang, and Wei Li from EABOT.AI.
 
 This release provides the frozen per-token scores, token lists, exact-input arrays,
 offline recomputation tools, and provenance used for the paper's audit. It verifies the
